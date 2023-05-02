@@ -1,0 +1,2 @@
+<a class="nowrap pointer tip" data-toggle="tooltip" data-html="true" title="<h3 class='text-left'>Benefits earnings:</h3><ul class='text-left'><li>Annual base salary</li><li>Performance bonuses</li><li>Lump-sum merit awards</li><li>Sales bonuses/ commissions</li></ul>
+">benefits earnings</a> <i class="tip-icon fas fa-info-circle"></i>

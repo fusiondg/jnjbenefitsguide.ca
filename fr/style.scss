@@ -1,0 +1,216 @@
+// Typography
+@font-face {
+  font-family: "J&J CircularTT Bold Web";
+  src: url("../fonts/J&J CircularTT-Bold.eot");
+  src: url("../fonts/J&J CircularTT-Bold.woff2") format("woff2"), url("../fonts/J&J CircularTT-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "J&J CircularTT sBold Italic Web";
+  src: url("../fonts/J&J CircularTT-BoldItalic.eot");
+  src: url("../fonts/J&J CircularTT-BoldItalic.woff2") format("woff2"), url("../fonts/J&J CircularTT-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "J&J CircularTT Book Web";
+  src: url("../fonts/J&J CircularTT-Book.eot");
+  src: url("../fonts/J&J CircularTT-Book.woff2") format("woff2"), url("../fonts/J&J CircularTT-Book.woff") format("woff");
+}
+
+@font-face {
+  font-family: "J&J CircularTT Book Italic Web";
+  src: url("../fonts/J&J CircularTT-BookItalic.eot");
+  src: url("../fonts/J&J CircularTT-BookItalic.woff2") format("woff2"), url("../fonts/J&J CircularTT-BookItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "J&J CircularTT Light Web";
+  src: url("../fonts/J&J CircularTT-Light.eot");
+  src: url("../fonts/J&J CircularTT-Light.woff2") format("woff2"), url("../fonts/J&J CircularTT-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "J&J CircularTT Light Italic Web";
+  src: url("../fonts/J&J CircularTT-LightItalic.eot");
+  src: url("../fonts/J&J CircularTT-LightItalic.woff2") format("woff2"), url("../fonts/J&J CircularTT-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "J&J CircularTT Medium Web";
+  src: url("../fonts/J&J CircularTT-Medium.eot");
+  src: url("../fonts/J&J CircularTT-Medium.woff2") format("woff2"), url("../fonts/J&J CircularTT-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "J&J CircularTT Medium Italic Web";
+  src: url("../fonts/J&J CircularTT-MediumItalic.eot");
+  src: url("../fonts/J&J CircularTT-MediumItalic.woff2") format("woff2"), url("../fonts/J&J CircularTT-MediumItalic.woff") format("woff");
+}
+
+// Variables
+$font-bold: "J&J CircularTT Bold Web", sans-serif;
+$font-bold-italic: "J&J CircularTT sBold Italic Web", sans-serif;
+$font-book: "J&J CircularTT Book Web";
+$font-book-italic: "J&J CircularTT Book Italic Web";
+$font-light: "J&J CircularTT Light Web", sans-serif;
+$font-light-italic: "J&J CircularTT Light Italic Web", sans-serif;
+$font-medium: "J&J CircularTT Medium Web", sans-serif;
+$font-medium-italic: "J&J CircularTT Medium Italic Web", sans-serif;
+
+$primary-color: #da0025;
+$secondary-color: #0800a0;
+$accent-color: #db00a6;
+$copy-color: #212121;
+$light-color: #f4f4f4;
+$nav-color: #3b3b3b;
+
+// Mixins
+@mixin easeOut {
+  transition: all 0.3s ease-out;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+.switcher_landing {
+  margin-top: 10%;
+
+  @media (min-width: 1024px) {
+    position: absolute;
+    bottom: 5vh;
+    margin-top: 0;
+  }
+}
+.switcher{
+    a{
+        display: inline-block;
+        color: $light-color;
+        font-family: $font-light;
+        &:first-child{
+            border-right: 1px solid $light-color;
+            padding-right: 1em;
+        }
+        
+    }
+}
+.non-active{
+    text-decoration: underline !important;
+    font-family: $font-bold !important;
+}
+
+.home {
+  main {
+    margin: 0;
+  }
+  background: $secondary-color;
+  .header {
+    background: #fff;
+  }
+  .wrapper {
+    padding: 2em;
+    margin: 0 auto;
+  }
+
+  .content {
+    min-height: unset;
+    h1 {
+      color: #fff;
+      font-size: 3rem;
+      font-family: $font-bold;
+      margin-top: 0rem;
+    }
+    a {
+      margin: 0.5rem 0;
+      text-decoration: none;
+    }
+    &_image {
+      background: url("../images/home-hero.jpg");
+      width: 100%;
+      height: 50vh;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  .buttons {
+    font-size: 1rem;
+    font-family: $font-light;
+    .btn {
+      padding: 0.8em 1em;
+      border: 2px solid #fff;
+      border-radius: 6px;
+      display: inline-block;
+      color: #fff;
+      @include easeOut;
+      &:hover {
+        color: $secondary-color;
+        background: #fff;
+      }
+    }
+  }
+  @media (min-width: 477px) {
+    .content {
+      a {
+        margin-right: 0.5em;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .content {
+      h1 {
+        font-size: 5rem;
+      }
+    }
+    .wrapper {
+      padding-right: 3em;
+      padding-left: 3em;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    height: 100vh;
+
+    .header {
+      height: calc(60px + 4em);
+    }
+    .wrapper {
+      padding-right: 5em;
+      padding-left: 5em;
+    }
+    .content {
+      height: calc(100vh - 60px - 4em);
+      display: grid;
+      display: -ms-flexbox;
+      align-items: center;
+      place-content: center;
+      place-items: center;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: "body body image";
+      &_image {
+        grid-area: image;
+        height: calc(100vh - 60px - 4em);
+      }
+      &_body {
+        grid-area: body;
+      }
+      h1 {
+        font-size: 5rem;
+      }
+    }
+  }
+  @media (min-width: 1100px) {
+    .content {
+      h1 {
+        font-size: 5rem;
+      }
+    }
+  }
+}

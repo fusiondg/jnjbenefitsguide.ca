@@ -1,0 +1,232 @@
+@font-face {
+  font-family: 'J&J CircularTT Bold Web';
+  src: url("../fonts/J&J CircularTT-Bold.eot");
+  src: url("../fonts/J&J CircularTT-Bold.woff2") format("woff2"), url("../fonts/J&J CircularTT-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'J&J CircularTT sBold Italic Web';
+  src: url("../fonts/J&J CircularTT-BoldItalic.eot");
+  src: url("../fonts/J&J CircularTT-BoldItalic.woff2") format("woff2"), url("../fonts/J&J CircularTT-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Book Web';
+  src: url("../fonts/J&J CircularTT-Book.eot");
+  src: url("../fonts/J&J CircularTT-Book.woff2") format("woff2"), url("../fonts/J&J CircularTT-Book.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Book Italic Web';
+  src: url("../fonts/J&J CircularTT-BookItalic.eot");
+  src: url("../fonts/J&J CircularTT-BookItalic.woff2") format("woff2"), url("../fonts/J&J CircularTT-BookItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Light Web';
+  src: url("../fonts/J&J CircularTT-Light.eot");
+  src: url("../fonts/J&J CircularTT-Light.woff2") format("woff2"), url("../fonts/J&J CircularTT-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Light Italic Web';
+  src: url("../fonts/J&J CircularTT-LightItalic.eot");
+  src: url("../fonts/J&J CircularTT-LightItalic.woff2") format("woff2"), url("../fonts/J&J CircularTT-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Medium Web';
+  src: url("../fonts/J&J CircularTT-Medium.eot");
+  src: url("../fonts/J&J CircularTT-Medium.woff2") format("woff2"), url("../fonts/J&J CircularTT-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Medium Italic Web';
+  src: url("../fonts/J&J CircularTT-MediumItalic.eot");
+  src: url("../fonts/J&J CircularTT-MediumItalic.woff2") format("woff2"), url("../fonts/J&J CircularTT-MediumItalic.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  max-width: 300px;
+}
+
+@media (min-width: 400px) {
+  .logo {
+    max-width: unset;
+  }
+}
+
+.switcher_landing {
+  margin-top: 10%;
+}
+
+@media (min-width: 1025px) {
+  .switcher_landing {
+    position: absolute;
+    bottom: 5vh;
+    margin-top: 0;
+  }
+}
+
+.switcher a {
+  display: inline-block;
+  color: #f4f4f4;
+  font-family: "J&J CircularTT Light Web", sans-serif;
+}
+
+.switcher a:first-child {
+  border-right: 1px solid #f4f4f4;
+  padding-right: 1em;
+}
+
+.switcher a:last-child {
+  padding-left: 1em;
+}
+
+@media (min-width: 500px) {
+  .switcher a:last-child {
+    padding-left: 0.25em;
+  }
+}
+
+.non-active {
+  text-decoration: underline !important;
+  font-family: "J&J CircularTT Bold Web", sans-serif !important;
+}
+
+.home {
+  background: #0800a0;
+}
+
+.home main {
+  margin: 0;
+}
+
+.home .header {
+  background: #fff;
+}
+
+.home .wrapper {
+  padding: 2em;
+  margin: 0 auto;
+}
+
+.home .content {
+  min-height: unset;
+}
+
+.home .content h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "J&J CircularTT Bold Web", sans-serif;
+  margin-top: 0rem;
+}
+
+.home .content a {
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
+
+.home .content_image {
+  background: url("../images/home-hero.jpg");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .buttons {
+  font-size: 1rem;
+  font-family: "J&J CircularTT Light Web", sans-serif;
+}
+
+.home .buttons .btn {
+  padding: 0.8em 1em;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  display: inline-block;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.home .buttons .btn:hover {
+  color: #0800a0;
+  background: #fff;
+}
+
+@media (min-width: 477px) {
+  .home .content a {
+    margin-right: 0.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .home .content h1 {
+    font-size: 5rem;
+  }
+  .home .wrapper {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+}
+
+@media (min-width: 1025px) {
+  .home {
+    height: 100vh;
+  }
+  .home .header {
+    height: calc(60px + 4em);
+  }
+  .home .wrapper {
+    padding-right: 5em;
+    padding-left: 5em;
+  }
+  .home .content {
+    height: calc(100vh - 60px - 4em);
+    display: -ms-grid;
+    display: grid;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+    place-items: center;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 'body body image';
+  }
+  .home .content_image {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: image;
+    height: calc(100vh - 60px - 4em);
+  }
+  .home .content_body {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: body;
+  }
+  .home .content h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1333px) {
+  .home .content h1 {
+    font-size: 3rem;
+  }
+}

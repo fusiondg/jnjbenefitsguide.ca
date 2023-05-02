@@ -1,0 +1,230 @@
+// Fonts
+@font-face {
+  font-family: 'J&J CircularTT Bold Web';
+  src: url('../fonts/J&J CircularTT-Bold.eot');
+  src: url('../fonts/J&J CircularTT-Bold.woff2') format('woff2'),
+    url('../fonts/J&J CircularTT-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'J&J CircularTT Black Web';
+  src: url('../fonts/J&J CircularTT-Black.eot');
+  src: url('../fonts/J&J CircularTT-Black.woff2') format('woff2'),
+    url('../fonts/J&J CircularTT-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Bold Italic Web';
+  src: url('../fonts/J&J CircularTT-BoldItalic.eot');
+  src: url('../fonts/J&J CircularTT-BoldItalic.woff2') format('woff2'),
+    url('../fonts/J&J CircularTT-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Book Web';
+  src: url('../fonts/J&J CircularTT-Book.eot');
+  src: url('../fonts/J&J CircularTT-Book.woff2') format('woff2'),
+    url('../fonts/J&J CircularTT-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Book Italic Web';
+  src: url('../fonts/J&J CircularTT-BookItalic.eot');
+  src: url('../fonts/J&J CircularTT-BookItalic.woff2') format('woff2'),
+    url('../fonts/J&J CircularTT-BookItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Light Web';
+  src: url('../fonts/J&J CircularTT-Light.eot');
+  src: url('../fonts/J&J CircularTT-Light.woff2') format('woff2'),
+    url('../fonts/J&J CircularTT-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Light Italic Web';
+  src: url('../fonts/J&J CircularTT-LightItalic.eot');
+  src: url('../fonts/J&J CircularTT-LightItalic.woff2') format('woff2'),
+    url('../fonts/J&J CircularTT-LightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Medium Web';
+  src: url('../fonts/J&J CircularTT-Medium.eot');
+  src: url('../fonts/J&J CircularTT-Medium.woff2') format('woff2'),
+    url('../fonts/J&J CircularTT-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'J&J CircularTT Medium Italic Web';
+  src: url('../fonts/J&J CircularTT-MediumItalic.eot');
+  src: url('../fonts/J&J CircularTT-MediumItalic.woff2') format('woff2'),
+    url('../fonts/J&J CircularTT-MediumItalic.woff') format('woff');
+}
+
+// Variables
+
+$primary: #000099;
+$secondary: #c8102e;
+$accent: #cc0099;
+$light-bg: #f4f4f4;
+$dark-copy: #212121;
+$font-family-base: 'J&J CircularTT Book Web';
+
+$black: 'Black';
+$bold: 'Bold';
+$book: 'Book';
+$medium: 'medium';
+
+a {
+  color: $primary;
+  text-decoration: underline !important;
+  &:hover {
+    color: $accent;
+  }
+}
+
+a.btn {
+  text-decoration: none !important;
+}
+
+.logo {
+  max-width: 260px;
+}
+
+.toggler {
+  a {
+    text-decoration: none !important;
+    color: $dark-copy;
+    &:first-child {
+      text-decoration: underline !important
+      ;
+      color: $accent;
+    }
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+.slide-img {
+  display: flex;
+  align-items: center;
+}
+
+.bg-primary {
+  background: $primary !important;
+}
+.bg-secondary {
+  background: $secondary !important;
+}
+.bg-light {
+  background: $light-bg !important;
+}
+
+.text-primary {
+  color: #000099 !important;
+}
+.text-accent {
+  color: $accent;
+}
+
+.display-6 {
+  font-size: 1.5rem;
+}
+
+.h1,
+.h2,
+.h3,
+.bold {
+  font-family: 'J&J CircularTT Black Web' !important;
+}
+.h4 {
+  font-weight: 300;
+}
+.btn {
+  padding: 1em 2em;
+}
+.btn-secondary {
+  background: $secondary;
+  border: none;
+}
+
+.carousel {
+  height: 450px;
+}
+.bg-half-coloured {
+  min-height: 400px;
+  margin-top: -400px;
+  z-index: 1;
+}
+.half-content {
+  z-index: 20;
+}
+
+.right-col,
+.left-col {
+  width: 100%;
+  max-width: 510px;
+}
+
+.media-body p {
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-bottom: 0 !important;
+}
+
+a.carousel-control-next,
+a.carousel-control-prev {
+  background: $primary;
+  opacity: 1;
+  height: 3em;
+  width: 3em;
+  top: 45%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 15px;
+  height: 15px;
+}
+
+@media (max-width: 1200px) {
+  .carousel {
+    height: 550px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .col-center {
+    text-align: center;
+  }
+  .carousel {
+    height: 750px;
+  }
+  .right-col,
+  .left-col {
+    margin: 0 auto;
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .carousel {
+    height: 750px;
+    &-item {
+      padding: 0 2em;
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .full-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 499.99px) {
+  .carousel {
+    height: 820px;
+  }
+}

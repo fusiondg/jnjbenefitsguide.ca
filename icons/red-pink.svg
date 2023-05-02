@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="367.816" height="140.413" viewBox="0 0 367.816 140.413">
+  <g id="Group_985" data-name="Group 985" transform="translate(-703.34 -1019)">
+    <g id="Group_947" data-name="Group 947" transform="translate(703.34 1019)">
+      <rect id="Rectangle_470" data-name="Rectangle 470" width="155.316" height="140.413" transform="translate(0 0)" fill="#c8102e"/>
+      <text id="Optional_DB" data-name="Optional
+DB" transform="translate(75.137 50.652)" fill="#fff" font-size="28" font-family="'J\&amp;JCircular-Black', 'J\&amp;J Circular'" font-weight="800"><tspan x="-57.666" y="0">Optional</tspan><tspan font-size="63"><tspan x="-42.305" y="63">DB</tspan></tspan></text>
+    </g>
+    <g id="Group_948" data-name="Group 948" transform="translate(915.84 1019)">
+      <rect id="Rectangle_471" data-name="Rectangle 471" width="155.316" height="140.413" transform="translate(0 0)" fill="#c09"/>
+      <text id="Non-_DB" data-name="Non-
+DB" transform="translate(77.655 50.652)" fill="#fff" font-size="28" font-family="'J\&amp;JCircular-Black', 'J\&amp;J Circular'" font-weight="800"><tspan x="-32.746" y="0">Non-</tspan><tspan font-size="61"><tspan x="-40.961" y="61">DB</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

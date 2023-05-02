@@ -1,0 +1,2 @@
+<a class="nowrap pointer tip" data-toggle="tooltip" data-html="true" title="<h3 class='text-left'>revenu aux fins des avantages sociaux :</h3><ul class='text-left'><li>le salaire de base annuel</li><li>les primes de rendement</li><li>les primes au mérite</li><li>les commissions et les primes de vente</li></ul>
+">revenu aux fins des avantages sociaux</a> <i class="tip-icon fas fa-info-circle"></i>
