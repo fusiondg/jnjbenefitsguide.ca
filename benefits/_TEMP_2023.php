@@ -51,7 +51,7 @@
 						</table>
 					</div>
 					<div class="embed-responsive embed-responsive-16by9 mb-3" id="video">
-						<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/704618191?h=d3de688a57" width="100%" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						<iframe class="embed-responsive-item" src="https://vimeo.com/822096512/8e904e9812" width="100%" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 					</div>
 
 					<div>
