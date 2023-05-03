@@ -36,6 +36,95 @@
                     <div class="magenta-divider last">
                         <p><b class="jnj-red-text">L'option 4</b> fournit une couverture am&eacute;lior&eacute;e pour les employ&eacute;es dont les d&eacute;penses de soins de sant&eacute; sont plus importantes. Si vous choisissez cette option, vous payerez une portion de l'augmentation du co&ucirc;t par retenues salariales r&eacute;guli&egrave;res.</p>
                     </div>
+                    <h2 class="jnj-magenta-text m-2">
+                        <b>Nous avons amélioré le régime flexible
+                        </b>
+                    </h2>
+                    <div class="choosing-the-right-options" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h3 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <table class="number-table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="icon" valign="top"><img src="../images/icons/JJ_Calendar.png" class="icon-48" /></td>
+                                                    <td>
+                                                        Plusieurs améliorations prendront effet le 1er juillet 2023 :
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <h4>Nouveaux praticiens :</h4>
+                                    <div class="icon-details single-line">
+                                        <p>Ajout des audiologistes, diététistes
+                                            et ergothérapeutes (selon le même maximum que les autres
+                                            praticiens).
+                                        </p>
+                                    </div>
+                                    <h4>Examens de la vue :</h4>
+                                    <div class="icon-details single-line">
+                                        <p>Le régime couvre 100 $ tous les 12 mois
+                                            (antérieurement, 60 $ tous les 12 mois). </p>
+                                    </div>
+                                    <h4>Ajout de l’Offre affirmation du genre :</h4>
+
+                                    <div class="icon-details single-line">
+                                        <p>Cette couverture
+                                            procure un soutien financier supplémentaire pour les
+                                            interventions chirurgicales.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center m-1"><img src="../images/icons/icon_64x64_plus_in_circle.png" class="icon-64" alt="+" /></div>
+                        <div class="choosing-the-right-options" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <table class="number-table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="icon" valign="top"><img src="../images/icons/JJ_Star.png" class="icon-48" /></td>
+                                                        <td>
+                                                            Autres améliorations apportées récemment :
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+
+                                        <h4 class="mb-1">Équipement pour diabétique :</h4>
+
+                                        <div class="icon-details single-line">
+                                            <p>Nous avons ajouté une
+                                                couverture pour la surveillance continue de la glycémie
+                                                et augmenté la couverture de l’équipement médical pour
+                                                diabétique jusqu’à 4 000 $ par année.</p>
+                                        </div>
+                                        <h4 class="mb-1">Soutiens-gorge postmastectomie : </h4>
+
+                                        <div class="icon-details single-line">
+                                            <p>Jusqu’à deux
+                                                soutiens-gorge postmastectomie par personne et par
+                                                année sont maintenant couverts.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <p class="deck">Quand chacun d’entre nous est au meilleur de sa forme, nous sommes en mesure de changer la trajectoire de santé de l’humanité. Lorsque vous choisissez vos options, pensez au type de protection dont vous et votre famille pourriez avoir besoin. Aurez-vous bient&ocirc;t des d&eacute;penses qui exigeraient une couverture plus (ou moins) &eacute;lev&eacute;e, comme de nouvelles lunettes ou des appareils orthodontiques pour un de vos enfants&thinsp;?</p>
                     <p>Vous ne savez pas trop quelles options vous conviennent le mieux&nbsp;? &ecirc;tes-vous plus comme Am&eacute;lie, Simon ou Marie&nbsp;?</p>
@@ -55,7 +144,7 @@
                         </div>
 
                         <div class="bio-container jnj-blue white-text nopadding">
-                            <img src="../images/headshots/Scott.jpg" class="float-sm-left" />
+                            <img src="../images/headshots/Scott_2.jpg" class="float-sm-left" />
                             <div class="bio">
                                 <h2 class="name">Simon</h2>
                                 <ul>

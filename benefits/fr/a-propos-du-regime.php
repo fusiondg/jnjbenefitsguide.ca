@@ -44,8 +44,9 @@
                                         <ul>
                                             <li>1 fois votre
                                                 <?php include("benefits-earnings-tooltip.php"); ?>, arrondi au millier de dollars pr&egrave;s</li>
-                                            <li>La protection maximale sans preuve d’assurabilit&eacute; est de 600&nbsp;000&nbsp;$.</li>
-                                            <li>Si votre <?php include("benefits-earnings-tooltip.php"); ?> exc&egrave;de 600&nbsp;000&nbsp;$, vous pouvez obtenir une protection de 1,5&nbsp;million&nbsp;$ en fournissant une preuve d’assurabilit&eacute;.</li>
+                                            <li> La protection maximale sans preuve d’assurabilité est de 600 000 $; 850 000 $ à compter du 1<sup>er</sup> janvier 2023.</li>
+                                            <li>Si votre <?php include("benefits-earnings-tooltip.php"); ?> excède 600 000 $ => 850 000 $ vous pouvez obtenir une protection de 1,5 million $ en fournissant une preuve d’assurabilité.</li>
+
                                         </ul>
                                     </div>
                                     <img src="../images/icons/icon_32x32_basic_ADD_insurance.png" class="icon-32 small-icon clearfix" />
