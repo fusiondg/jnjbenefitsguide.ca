@@ -44,9 +44,10 @@
                                         <ul>
                                             <li>1 times your
                                                 <?php include("benefits-earnings-tooltip.php"); ?>, rounded to the nearest $1,000</li>
-                                            <li>Maximum without evidence of insurability is $600,000</li>
+                                            <li>Maximum without evidence of insurability is $600,000; effective July 1st, 2023: the amount will increase from $600k to $850k.</li>
                                             <li>If your
                                                 <?php include("benefits-earnings-tooltip.php"); ?> exceed $600,000, then you can receive up to $1.5 million of Basic Life insurance with evidence of insurability</li>
+
                                         </ul>
                                     </div>
                                     <img src="images/icons/icon_32x32_basic_ADD_insurance.png" class="icon-32 small-icon clearfix" />
