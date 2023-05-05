@@ -69,15 +69,13 @@
                                     </div>
                                     <h4>Examens de la vue :</h4>
                                     <div class="icon-details single-line">
-                                        <p>Le régime couvre 100 $ tous les 12 mois
+                                        <p>Le régime couvre jusqu’à 100 $ tous les 12 mois
                                             (antérieurement, 60 $ tous les 12 mois). </p>
                                     </div>
                                     <h4>Ajout de l’Offre affirmation du genre :</h4>
 
                                     <div class="icon-details single-line">
-                                        <p>Cette couverture
-                                            procure un soutien financier supplémentaire pour les
-                                            interventions chirurgicales.</p>
+                                        <p>Pour compléter les prestations gouvernementales des personnes effectuant un parcours d'identification de genre.</p>
                                     </div>
                                 </div>
                             </div>

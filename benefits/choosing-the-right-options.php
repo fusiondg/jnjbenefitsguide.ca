@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="magenta-divider">
-                        <p><b class="jnj-red-text">Option 3</b> offers full coverage and the cost is <b>covered</b> by the flex credits that Johnson & Johnson provides you. You don’t have to pay anything! </p>
+                        <p><b class="jnj-red-text">Option 3</b> offers full coverage and the cost is <b>covered</b> by the flex credits that Johnson & Johnson provides you and/or your family. You don’t have to pay anything! </p>
                         <p>This is a good option for many. Even for those with relatively few expenses, this option offers peace of mind in case you encounter any unexpected health expenses.</p>
                     </div>
 
@@ -68,18 +68,18 @@
                                     <h4>New practitioners:</h4>
 
                                     <div class="icon-details single-line">
-                                        <p>Addition of the audiologist, dietician, and occupations therapist (under the same maximum as all other practitioners).</p>
+                                        <p>Addition of the audiologist, dietician, and occupational therapist (under the same maximum as all other practitioners).</p>
                                     </div>
 
                                     <h4>Vision care examinations:</h4>
                                     <div class="icon-details single-line">
-                                        <p>The plan now covers $100 every 12 months (previously, it was $60 every 12 months).</p>
+                                        <p>The plan now covers up to $100 every 12 months (previously, it was $60 every 12 months).</p>
                                     </div>
 
                                     <h4>Addition of Gender Affirmation coverage:</h4>
 
                                     <div class="icon-details single-line">
-                                        <p>This coverage will helps to supplement the coverage for surgeries with additional financial support.</p>
+                                        <p>To supplement provincial and territorial benefits for those on a gender identification journey.</p>
                                     </div>
                                 </div>
                             </div>
@@ -407,7 +407,7 @@
                                 </div>
                                 <div id="collapseOptInsurance_Mary" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOptInsurance_Mary">
                                     <div class="panel-body">
-                                        <p><b>Mary</b> and her partner are mortgage-free and their two adult children no longer depend on them, so Mary decides that she doesn’t need Optional Life or AD&amp;D insurance. Mary does, however, want to be sure she’s protected in case of a rainy day, so she decides to increase her LTD insurance with the “buy-up” option.</p>
+                                        <p><b>Mary</b> and her partner are mortgage-free and their two adult children no longer depend on them, so Mary decides that she doesn’t need Optional Life or AD&amp;D insurance. Mary does, however, want to be sure she’s protected in case of a prolonged illness, so she decides to increase her LTD insurance with the “buy-up” option.</p>
 
                                         <p>If Mary wants increased protection, she may also consider some optional coverage for either Life or AD&amp;D insurance.
                                         </p>

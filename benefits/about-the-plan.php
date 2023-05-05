@@ -44,9 +44,9 @@
                                         <ul>
                                             <li>1 times your
                                                 <?php include("benefits-earnings-tooltip.php"); ?>, rounded to the nearest $1,000</li>
-                                            <li>Maximum without evidence of insurability is $600,000; effective July 1st, 2023: the amount will increase from $600k to $850k.</li>
+
                                             <li>If your
-                                                <?php include("benefits-earnings-tooltip.php"); ?> exceed $600,000, then you can receive up to $1.5 million of Basic Life insurance with evidence of insurability</li>
+                                                <?php include("benefits-earnings-tooltip.php"); ?> exceed $850,000, then you can receive up to $1.5 million of Basic Life insurance with evidence of insurability</li>
 
                                         </ul>
                                     </div>
@@ -132,15 +132,6 @@
                                     <div class="icon-details single-line mb-2">
                                         <p>Optional Long-Term Disability (LTD) insurance</p>
                                     </div>
-                                    <img src="images/icons/hearing.png" width="16" class="icon-32 small-icon clearfix" />
-                                    <div class="icon-details single-line mb-2">
-                                        <p>Hearing aids: A maximum of $750 every five years, is
-                                            available to those who require hearing aids, including
-                                            for repairs. Please select Option 4 to add this benefit
-                                            to your plan. Employees who select Option 3 will have
-                                            a limit of $500 every five years.</p>
-                                    </div>
-
                                     <p>More information about flexible benefits options is on the <a href="flexible-benefit-options">next page</a>.</p>
 
 
